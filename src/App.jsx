@@ -17,30 +17,28 @@ import Furniture from "./components/SecondHand/Furniture/Furniture";
 import PostPage from "./components/PostPage/PostPage";
 import PostUploader from "./components/PostUploader/PostUploaer";
 import PostIntro from "./components/PostIntro";
-
 function App() {
   return (
     <div id="app-container">
       <Routes>
-        <Route></Route>
-        <Route></Route>
-        <Route></Route>
-        <Route></Route>
-        <Route></Route>
-        <Route></Route>
-        <Route></Route>
-        <Route></Route>
-        <Route></Route>
-        <Route></Route>
-        <Route></Route>
-        <Route></Route>
-        <Route></Route>
-        <Route></Route>
-        <Route></Route>
-        <Route></Route>
+      <Route path="/" element={<Layout />}/>
+          <Route index element={<HomePage />}/>
+          <Route path="PostPage" element={<PostPage/>}/>
+          <Route path="PostUploader" element={<PostUploader/>}/>
+          <Route path="PostIntro" element={<PostIntro/>}/>
+          <Route path="Environment" element={<Environment/>}/>
+          <Route path="General" element={<General/>}/>
+          <Route path="Tips" element={<Tips/>}/>
+          <Route path="RecyclePage" element={<RecyclePage/>}/>
+          <Route path="Guide" element={<Guide/>}/>
+          <Route path="RecycleLocations" element={<RecycleLocations/>}/>
+          <Route path="Requests" element={<Requests/>}/>
+          <Route path="SecondHand" element={<SecondHand/>}/>
+          <Route path="Clothing" element={<Clothing/>}/>
+          <Route path="ElectricProducts" element={<ElectricProducts/>}/>
+          <Route path="Furniture" element={<Furniture/>}/>
       </Routes>
     </div>
   );
 }
-
 export default App;

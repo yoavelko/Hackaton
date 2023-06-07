@@ -1,8 +1,8 @@
 import React from "react";
-import json from "./Post.json"
+import postData from "./Post.json"
 import PostIntro from "./PostIntro";
 function Requests(){
-    const [detail, setDetail] = useState(json.postData.recycle.requests)
+    const [detail, setDetail] = useState(postData.recycle.requests)
     return(
         <div>
             <div id="posts-container">

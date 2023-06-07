@@ -1,8 +1,8 @@
 import React from "react";
-import json from "./Post.json"
+import postData from "./Post.json"
 import PostIntro from "./PostIntro";
 function General(){
-    const [detail, setDetail] = useState(json.postData.environment.general)
+    const [detail, setDetail] = useState(postData.postData.environment.general)
     return(
         <div>
             <div id="posts-container">

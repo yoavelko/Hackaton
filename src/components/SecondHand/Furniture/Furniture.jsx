@@ -1,8 +1,8 @@
 import React from "react";
-import json from "./Post.json"
+import postData from "./Post.json"
 import PostIntro from "./PostIntro";
 function Furniture(){
-    const [detail, setDetail] = useState(json.postData.secondHand.furniture)
+    const [detail, setDetail] = useState(postData.secondHand.furniture)
     return(
         <div>
             <div id="posts-container">

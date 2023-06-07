@@ -1,8 +1,8 @@
 import React from "react";
-import json from "./Post.json"
+import postData from "./Post.json"
 import PostIntro from "./PostIntro";
 function RecycleLocations(){
-    const [detail, setDetail] = useState(json.postData.secondHand.locations)
+    const [detail, setDetail] = useState(postData.secondHand.locations)
     return(
         <div>
             <div id="posts-container">
