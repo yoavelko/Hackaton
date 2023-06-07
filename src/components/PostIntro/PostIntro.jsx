@@ -5,12 +5,9 @@ import "./PostIntro.css"
 function PostIntro({ result }) {
   return (
     <div className="intro-container">
-      <div className="intro-header">
-        <Link to={"/PostPage"}>{result?.header}</Link>
-      </div>
+        <div className="intro-header">{`${result?.category}`} |  <Link to={"/PostPage"}>{result?.header}</Link></div>
       <div className="intro-info">
-      <div>User: {`${result?.username}`}</div>
-      <div>Category: {`${result?.category}`}</div>
+      <div className="user-pic-container"><img className="intro-user-pic" src={`${result?.profilepic}`}/> <span className="username-intro">User: {`${result?.username}`}</span></div>
       </div>
     </div>
   );
