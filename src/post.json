@@ -1,0 +1,282 @@
+{
+    "postData": {
+      "recycle": {
+        "requests": [
+          {
+            "id": 1,
+            "username":"nusi",
+            "header": "Where can I get old car wheels",
+            "category": "question",
+            "content": "",
+            "file": "",
+            "like": "",
+            "comments": [],
+            "petition": "",
+            "event": ""
+          },
+          {
+            "id": 2,
+            "username": "yoav",
+            "header": "",
+            "category": "",
+            "content": "",
+            "file": "",
+            "like": "",
+            "comments": [],
+            "petition": "",
+            "event": ""
+          },
+          {
+            "id": 3,
+            "username": "noam123",
+            "header": "",
+            "category": "",
+            "content": "",
+            "file": "",
+            "like": "",
+            "comments": [],
+            "petition": "",
+            "event": ""
+          }
+        ],
+        "guide": [
+          {
+            "id": 1,
+            "header": "",
+            "category": "",
+            "content": "",
+            "file": "",
+            "like": "",
+            "comments": [],
+            "petition": "",
+            "event": ""
+          },
+          {
+            "id": 2,
+            "header": "",
+            "category": "",
+            "content": "",
+            "file": "",
+            "like": "",
+            "comments": [],
+            "petition": "",
+            "event": ""
+          }
+        ],
+        "locations": [
+          {
+            "id": 1,
+            "header": "",
+            "category": "",
+            "content": "",
+            "file": "",
+            "like": "",
+            "comments": [],
+            "petition": "",
+            "event": ""
+          },
+          {
+            "id": 2,
+            "header": "",
+            "category": "",
+            "content": "",
+            "file": "",
+            "like": "",
+            "comments": [],
+            "petition": "",
+            "event": ""
+          },
+          {
+            "id": 3,
+            "header": "",
+            "category": "",
+            "content": "",
+            "file": "",
+            "like": "",
+            "comments": [],
+            "petition": "",
+            "event": ""
+          }
+        ]
+      },
+      "secondHand": {
+        "furniture": [
+          {
+            "id": 1,
+            "header": "",
+            "category": "",
+            "content": "",
+            "file": "",
+            "like": "",
+            "comments": [],
+            "petition": "",
+            "event": ""
+          },
+          {
+            "id": 2,
+            "header": "",
+            "category": "",
+            "content": "",
+            "file": "",
+            "like": "",
+            "comments": [],
+            "petition": "",
+            "event": ""
+          },
+          {
+            "id": 3,
+            "header": "",
+            "category": "",
+            "content": "",
+            "file": "",
+            "like": "",
+            "comments": [],
+            "petition": "",
+            "event": ""
+          }
+        ],
+        "electric": [
+          {
+            "id": 1,
+            "header": "",
+            "category": "",
+            "content": "",
+            "file": "",
+            "like": "",
+            "comments": [],
+            "petition": "",
+            "event": ""
+          },
+          {
+            "id": 2,
+            "header": "",
+            "category": "",
+            "content": "",
+            "file": "",
+            "like": "",
+            "comments": [],
+            "petition": "",
+            "event": ""
+          },
+          {
+            "id": 3,
+            "header": "",
+            "category": "",
+            "content": "",
+            "file": "",
+            "like": "",
+            "comments": [],
+            "petition": "",
+            "event": ""
+          }
+        ],
+        "clothing": [
+          {
+            "id": 1,
+            "header": "",
+            "category": "",
+            "content": "",
+            "file": "",
+            "like": "",
+            "comments": [],
+            "petition": "",
+            "event": ""
+          },
+          {
+            "id": 2,
+            "header": "",
+            "category": "",
+            "content": "",
+            "file": "",
+            "like": "",
+            "comments": [],
+            "petition": "",
+            "event": ""
+          },
+          {
+            "id": 3,
+            "header": "",
+            "category": "",
+            "content": "",
+            "file": "",
+            "like": "",
+            "comments": [],
+            "petition": "",
+            "event": ""
+          }
+        ]
+      },
+      "environment": {
+        "general": [
+          {
+            "id": 1,
+            "header": "",
+            "category": "",
+            "content": "",
+            "file": "",
+            "like": "",
+            "comments": [],
+            "petition": "",
+            "event": ""
+          },
+          {
+            "id": 2,
+            "header": "",
+            "category": "",
+            "content": "",
+            "file": "",
+            "like": "",
+            "comments": [],
+            "petition": "",
+            "event": ""
+          },
+          {
+            "id": 3,
+            "header": "",
+            "category": "",
+            "content": "",
+            "file": "",
+            "like": "",
+            "comments": [],
+            "petition": "",
+            "event": ""
+          }
+        ],
+        "tips": [
+          {
+            "id": 1,
+            "header": "",
+            "category": "",
+            "content": "",
+            "file": "",
+            "like": "",
+            "comments": [],
+            "petition": "",
+            "event": ""
+          },
+          {
+            "id": 2,
+            "header": "",
+            "category": "",
+            "content": "",
+            "file": "",
+            "like": "",
+            "comments": [],
+            "petition": "",
+            "event": ""
+          },
+          {
+            "id": 3,
+            "header": "",
+            "category": "",
+            "content": "",
+            "file": "",
+            "like": "",
+            "comments": [],
+            "petition": "",
+            "event": ""
+          }
+        ]
+      }
+    }
+  }
