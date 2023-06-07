@@ -21,6 +21,7 @@ function Login() {
     const [signMail, setSignMail] = useState('');
     const [firstName, setFirstName] = useState('');
     const [lastName, setLastName] = useState('');
+    const navigate = useNavigate();
 
     function handleLog() {
 
@@ -36,9 +37,9 @@ function Login() {
         }
 
         if (user) {
-            navigate('/');
             setError('');
             setLogged(username);
+            navigate('/');
         } else {
             setError('Invalid username or password');
         }
@@ -88,7 +89,6 @@ function Login() {
 
     return (
         <div id='Login-page-conatiner'>
-            <Link to='/PostPage'>PostPage</Link>
             <div id='logSignContainer'>
                 <div id='loginContainer' className='dualContainer'>
                     <h1 className='headers'>Login</h1>
