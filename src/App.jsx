@@ -15,29 +15,40 @@ import ElectricProducts from "./components/SecondHand/ElectricProducts/ElectricP
 import Furniture from "./components/SecondHand/Furniture/Furniture";
 import PostPage from "./components/PostPage/PostPage";
 import PostUploader from "./components/PostUploader/PostUploaer";
-import PostIntro from "./PostIntro";
+import PostIntro from "./components/PostIntro";
+import { LoggedContext } from './context/LoggedContext'
+import { IndexContext } from './context/IndexContext'
+
 function App() {
+
+  const [logged, setLogged] = useState('');
+  const [userIndex, setUserIndex] = useState('');
+
   return (
     <div id="app-container">
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<HomePage />} />
-          <Route path="PostPage" element={<PostPage />} />
-          <Route path="PostUploader" element={<PostUploader />} />
-          <Route path="PostIntro" element={<PostIntro />} />
-          <Route path="Environment" element={<Environment />} />
-          <Route path="General" element={<General />} />
-          <Route path="Tips" element={<Tips />} />
-          <Route path="RecyclePage" element={<RecyclePage />} />
-          <Route path="Guide" element={<Guide />} />
-          <Route path="RecycleLocations" element={<RecycleLocations />} />
-          <Route path="Requests" element={<Requests />} />
-          <Route path="SecondHand" element={<SecondHand />} />
-          <Route path="Clothing" element={<Clothing />} />
-          <Route path="ElectricProducts" element={<ElectricProducts />} />
-          <Route path="Furniture" element={<Furniture />} />
-        </Route>
-      </Routes>
+      <LoggedContext.Provider value={{ logged, setLogged }}>
+        <IndexContext.Provider value={{ userIndex, setUserIndex }}>
+          <Routes>
+            <Route path="/" element={<Layout />} />
+            <Route index element={<HomePage />} />
+            <Route path="PostPage" element={<PostPage />} />
+            <Route path="PostUploader" element={<PostUploader />} />
+            <Route path="PostIntro" element={<PostIntro />} />
+            <Route path="Environment" element={<Environment />} />
+            <Route path="General" element={<General />} />
+            <Route path="Tips" element={<Tips />} />
+            <Route path="RecyclePage" element={<RecyclePage />} />
+            <Route path="Guide" element={<Guide />} />
+            <Route path="RecycleLocations" element={<RecycleLocations />} />
+            <Route path="Requests" element={<Requests />} />
+            <Route path="SecondHand" element={<SecondHand />} />
+            <Route path="Clothing" element={<Clothing />} />
+            <Route path="ElectricProducts" element={<ElectricProducts />} />
+            <Route path="Furniture" element={<Furniture />} />
+          </Routes>
+          <Login />
+        </IndexContext.Provider>
+      </LoggedContext.Provider>
     </div>
   );
 }

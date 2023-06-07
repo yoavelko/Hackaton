@@ -1,45 +1,44 @@
 {
-    "users":
-    [
+    "users": [
         {
-"username":"nusi",
-"password":"123456",
-"firstName":"Shahar",
-"lastName":"Nusboim",
-"profilepic": "https://res.cloudinary.com/dol6p0ex8/image/upload/v1685621792/High-Road/Reviews/max_u3qm60.jpg",
-"email":"shahar.nusboim@gmail.com",
-"rank":"",
-"score":""
+            "username": "nusi",
+            "password": "123456",
+            "firstName": "Shahar",
+            "lastName": "Nusboim",
+            "profilepic": "https://res.cloudinary.com/dol6p0ex8/image/upload/v1685621792/High-Road/Reviews/max_u3qm60.jpg",
+            "email": "shahar.nusboim@gmail.com",
+            "rank": "",
+            "score": ""
         },
         {
-"username":"yoav",
-"password":"yoav",
-"firstName":"Yoav",
-"lastName":"Elkobi",
-"profilepic": "",
-"email":"",
-"rank":"",
-"score":""
+            "username": "yoav",
+            "password": "yoav",
+            "firstName": "Yoav",
+            "lastName": "Elkobi",
+            "profilepic": "",
+            "email": "",
+            "rank": "",
+            "score": ""
         },
         {
-"username":"noam123",
-"password":"noam",
-"firstName":"Noam",
-"lastName":"",
-"profilepic": "",
-"email":"",
-"rank":"",
-"score":""
+            "username": "noam123",
+            "password": "noam",
+            "firstName": "Noam",
+            "lastName": "",
+            "profilepic": "",
+            "email": "",
+            "rank": "",
+            "score": ""
         },
         {
-"username":"daniel22",
-"password":"daniel",
-"firstName":"Daniel",
-"lastName":"Brizel",
-"profilepic": "",
-"email":"duckimomo15@gmail.com",
-"rank":"",
-"score":""
+            "username": "daniel22",
+            "password": "daniel",
+            "firstName": "Daniel",
+            "lastName": "Brizel",
+            "profilepic": "",
+            "email": "duckimomo15@gmail.com",
+            "rank": "",
+            "score": ""
         }
     ]
 }
