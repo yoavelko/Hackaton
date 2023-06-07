@@ -1,12 +1,16 @@
 import './PostPage.css';
 import { useContext, useState } from 'react';
 import { IndexContext } from '../../context/IndexContext';
+import { SectionContext } from "../../context/SectionContext";
+import { InnerContext } from "../../context/InnerContext";
 import userData from '../../user.json';
 import postData from '../../post.json'
 
 function PostPage() {
 
     const { userIndex, setUserIndex } = useContext(IndexContext);
+    const { section, setSection } = useContext(SectionContext);
+    const { inner, setInner } = useContext(InnerContext);
     const [petitionStyle, setPetitionStyle] = useState('petition-hidden');
     const [eventStyle, setEventStyle] = useState('event-hidden');
     const [postContent, setPostContent] = useState('')
@@ -34,7 +38,7 @@ function PostPage() {
 
     function handlePost() {
         const postObj = {
-            "id": postData.postData.recycle.requests.length+1,
+            "id": postData.postData[section][inner].length+1,
             "username": users[userIndex].username,
             "header": postHeader,
             "category": selected,
@@ -45,7 +49,7 @@ function PostPage() {
             "petition": petitionContent,
             "event": eventContent
         }
-        postData.postData.recycle.requests.push(postObj)
+        postData.postData[section][inner].push(postObj)
     }
 
 
