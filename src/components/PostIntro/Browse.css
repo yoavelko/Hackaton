@@ -1,10 +1,8 @@
 .intro-container {
   display: flex;
-  width: 40vw;
-  height: 9vh;
-  border-width: 1px;
-  border-radius: 15px;
-  border-style: inset;
+  width: 55vw;
+  height: 10vh;
+  border-radius: 20px;
   margin-left: 5vw;
   padding: 1.5vw;
   background-color: rgb(215 253 224);
@@ -33,9 +31,59 @@
     display: flex;
     align-items: center;
 }
-
-@media only screen and (max-width: 928px){
-    #intro-container{
-        width: 45vw;
+@media only screen and (max-width: 900px){
+    .intro-header{
+        font-size: 1.8vw;
+    }
+    .username-intro{
+        font-size: 2.2vw;
+    }
+    .intro-user-pic {
+        width: 40px;
+        height: 40px;
+    }
+    .intro-container{
+        height: 14vh;
+    }
+}
+@media only screen and (max-width: 670px){
+    .intro-header{
+        font-size: 2.2vw;
+    }
+}
+@media only screen and (max-width: 520px){
+    .intro-header{
+        font-size: 2.5vw;
+    }
+    .username-intro{
+        font-size: 2.7vw;
+    }
+    .intro-user-pic {
+        width: 35px;
+        height: 35px;
+    }
+}
+@media only screen and (max-width: 435px){
+    .intro-header{
+        font-size: 2.7vw;
+    }
+    .intro-user-pic {
+        width: 32px;
+        height: 32px;
+    }
+}
+@media only screen and (max-width: 392px){
+    .intro-header{
+        font-size: 3vw;
+    }
+    .username-intro{
+        font-size: 3vw;
+    }
+    .intro-user-pic {
+        width: 28px;
+        height: 28px;
+    }
+    .intro-container{
+        height: 12vh;
     }
 }
