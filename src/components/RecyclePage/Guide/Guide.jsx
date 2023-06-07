@@ -1,6 +1,6 @@
 import React from "react";
-import postData from "./Post.json"
-import PostIntro from "./PostIntro";
+import postData from "../../../post.json"
+import PostIntro from "../../../PostIntro";
 function Guide(){
     const [detail, setDetail] = useState(postData.secondHand.guide)
     return(

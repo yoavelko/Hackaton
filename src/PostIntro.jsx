@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import PostPage from "./PostPage/PostPage";
+import PostPage from "././components/PostPage/PostPage";
 function PostIntro({result}){
 <div>
     <div>

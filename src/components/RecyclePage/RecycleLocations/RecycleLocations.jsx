@@ -1,6 +1,6 @@
 import React from "react";
-import postData from "./Post.json"
-import PostIntro from "./PostIntro";
+import postData from "../../../post.json"
+import PostIntro from "../../../PostIntro";
 function RecycleLocations(){
     const [detail, setDetail] = useState(postData.secondHand.locations)
     return(

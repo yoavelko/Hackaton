@@ -1,6 +1,5 @@
-import { useState } from "react";
 import "./App.css";
-import { Route, Routes } from "react-router";
+import {Router, Route, Routes } from "react-router";
 import Layout from "./components/Layout/Layout";
 import HomePage from "./components/HomePage/HomePage";
 import Environment from "./components/EnvironmentMaintenance/Environment";
@@ -16,28 +15,29 @@ import ElectricProducts from "./components/SecondHand/ElectricProducts/ElectricP
 import Furniture from "./components/SecondHand/Furniture/Furniture";
 import PostPage from "./components/PostPage/PostPage";
 import PostUploader from "./components/PostUploader/PostUploaer";
-import PostIntro from "./components/PostIntro";
+import PostIntro from "./PostIntro";
 function App() {
   return (
     <div id="app-container">
       <Routes>
-      <Route path="/" element={<Layout />}/>
-          <Route index element={<HomePage />}/>
-          <Route path="PostPage" element={<PostPage/>}/>
-          <Route path="PostUploader" element={<PostUploader/>}/>
-          <Route path="PostIntro" element={<PostIntro/>}/>
-          <Route path="Environment" element={<Environment/>}/>
-          <Route path="General" element={<General/>}/>
-          <Route path="Tips" element={<Tips/>}/>
-          <Route path="RecyclePage" element={<RecyclePage/>}/>
-          <Route path="Guide" element={<Guide/>}/>
-          <Route path="RecycleLocations" element={<RecycleLocations/>}/>
-          <Route path="Requests" element={<Requests/>}/>
-          <Route path="SecondHand" element={<SecondHand/>}/>
-          <Route path="Clothing" element={<Clothing/>}/>
-          <Route path="ElectricProducts" element={<ElectricProducts/>}/>
-          <Route path="Furniture" element={<Furniture/>}/>
-      </Routes>
+  <Route path="/" element={<Layout />}>
+    <Route index element={<HomePage />} />
+    <Route path="PostPage" element={<PostPage />} />
+    <Route path="PostUploader" element={<PostUploader />} />
+    <Route path="PostIntro" element={<PostIntro />} />
+    <Route path="Environment" element={<Environment />} />
+    <Route path="General" element={<General />} />
+    <Route path="Tips" element={<Tips />} />
+    <Route path="RecyclePage" element={<RecyclePage />} />
+    <Route path="Guide" element={<Guide />} />
+    <Route path="RecycleLocations" element={<RecycleLocations />} />
+    <Route path="Requests" element={<Requests />} />
+    <Route path="SecondHand" element={<SecondHand />} />
+    <Route path="Clothing" element={<Clothing />} />
+    <Route path="ElectricProducts" element={<ElectricProducts />} />
+    <Route path="Furniture" element={<Furniture />} />
+  </Route>
+</Routes>
     </div>
   );
 }
