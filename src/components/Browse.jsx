@@ -1,14 +1,14 @@
 import React from "react";
 import json from "./Post.json"
-import PostIntro from "./PostIntro";
-function Furniture(){
-    const [detail, setDetail] = useState(json.postData.environment.general)
+import Post from "./Post";
+function Browse(){
+    const [detail, setDetail] = useState(json.postData)
     return(
         <div>
             <div id="furniture-container">
             {detail &&  
           detail.map((value, index) => (
-            <PostIntro
+            <Post
               key={index}
               result={value}
             />
@@ -16,5 +16,8 @@ function Furniture(){
             </div>
         </div>
     )
+
+
+
 }
-export default Furniture
+export default Browse
