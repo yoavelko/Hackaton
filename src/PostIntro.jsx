@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import PostPage from "././components/PostPage/PostPage";
 function PostIntro({result}){
+    return(
 <div>
     <div>
-    <Link to={PostPage}>
-{`${result?.header}`}   
+    <Link to={"/PostPage"}>
+{result?.header}
 </Link>
     </div>
     <div>
@@ -15,5 +15,6 @@ function PostIntro({result}){
 {`${result?.category}`}
     </div>
 </div>
+    )
 }
 export default PostIntro
