@@ -5,7 +5,7 @@ function Furniture(){
     const [detail, setDetail] = useState(json.postData.secondHand.furniture)
     return(
         <div>
-            <div id="furniture-container">
+            <div id="posts-container">
             {detail &&  
           detail.map((value, index) => (
             <PostIntro

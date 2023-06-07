@@ -1,11 +1,11 @@
 import React from "react";
 import json from "./Post.json"
 import PostIntro from "./PostIntro";
-function Furniture(){
+function Requests(){
     const [detail, setDetail] = useState(json.postData.recycle.requests)
     return(
         <div>
-            <div id="furniture-container">
+            <div id="posts-container">
             {detail &&  
           detail.map((value, index) => (
             <PostIntro
@@ -17,4 +17,4 @@ function Furniture(){
         </div>
     )
 }
-export default Furniture
+export default Requests
