@@ -15,9 +15,11 @@ import ElectricProducts from "./components/SecondHand/ElectricProducts/ElectricP
 import Furniture from "./components/SecondHand/Furniture/Furniture";
 import PostPage from "./components/PostPage/PostPage";
 import PostUploader from "./components/PostUploader/PostUploaer";
-import PostIntro from "./components/PostIntro";
-import { LoggedContext } from './context/LoggedContext'
-import { IndexContext } from './context/IndexContext'
+import PostIntro from "./components/PostIntro/PostIntro";
+import Login from "./components/Login/Login"
+import { LoggedContext } from './context/LoggedContext';
+import { IndexContext } from './context/IndexContext';
+import { useState } from "react";
 
 function App() {
 
@@ -45,8 +47,8 @@ function App() {
             <Route path="Clothing" element={<Clothing />} />
             <Route path="ElectricProducts" element={<ElectricProducts />} />
             <Route path="Furniture" element={<Furniture />} />
+            <Route path="Login" element={<Login />}/>
           </Routes>
-          <Login />
         </IndexContext.Provider>
       </LoggedContext.Provider>
     </div>
