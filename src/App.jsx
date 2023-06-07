@@ -1,6 +1,5 @@
 import "./App.css";
-import { Router, Route, Routes } from "react-router";
-import Layout from "./components/Layout/Layout";
+import { Route, Routes } from "react-router-dom";
 import HomePage from "./components/HomePage/HomePage";
 import Environment from "./components/EnvironmentMaintenance/Environment";
 import General from "./components/EnvironmentMaintenance/General/General";
@@ -20,6 +19,10 @@ import Login from "./components/Login/Login"
 import { LoggedContext } from './context/LoggedContext';
 import { IndexContext } from './context/IndexContext';
 import { useState } from "react";
+import { Outlet } from "react-router-dom";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
+
 
 function App() {
 
@@ -31,23 +34,25 @@ function App() {
       <LoggedContext.Provider value={{ logged, setLogged }}>
         <IndexContext.Provider value={{ userIndex, setUserIndex }}>
           <Routes>
-            <Route path="/" element={<Layout />} />
-            <Route index element={<HomePage />} />
-            <Route path="PostPage" element={<PostPage />} />
-            <Route path="PostUploader" element={<PostUploader />} />
-            <Route path="PostIntro" element={<PostIntro />} />
-            <Route path="Environment" element={<Environment />} />
-            <Route path="General" element={<General />} />
-            <Route path="Tips" element={<Tips />} />
-            <Route path="RecyclePage" element={<RecyclePage />} />
-            <Route path="Guide" element={<Guide />} />
-            <Route path="RecycleLocations" element={<RecycleLocations />} />
-            <Route path="Requests" element={<Requests />} />
-            <Route path="SecondHand" element={<SecondHand />} />
-            <Route path="Clothing" element={<Clothing />} />
-            <Route path="ElectricProducts" element={<ElectricProducts />} />
-            <Route path="Furniture" element={<Furniture />} />
-            <Route path="Login" element={<Login />}/>
+            <Route path="/" element={<div> <Header /> <Outlet /> <Footer /></div>}>
+              <Route index element={<HomePage />} />
+              <Route path="PostPage" element={<PostPage />} />
+              <Route path="PostPage/:id" element={<PostPage />} />
+              <Route path="PostUploader" element={<PostUploader />} />
+              <Route path="PostIntro" element={<PostIntro />} />
+              <Route path="Environment" element={<Environment />} />
+              <Route path="General" element={<General />} />
+              <Route path="Tips" element={<Tips />} />
+              <Route path="RecyclePage" element={<RecyclePage />} />
+              <Route path="Guide" element={<Guide />} />
+              <Route path="RecycleLocations" element={<RecycleLocations />} />
+              <Route path="Requests" element={<Requests />} />
+              <Route path="SecondHand" element={<SecondHand />} />
+              <Route path="Clothing" element={<Clothing />} />
+              <Route path="ElectricProducts" element={<ElectricProducts />} />
+              <Route path="Furniture" element={<Furniture />} />
+              <Route path="Login" element={<Login />} />
+            </Route>
           </Routes>
         </IndexContext.Provider>
       </LoggedContext.Provider>

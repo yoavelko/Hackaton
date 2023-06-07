@@ -1,0 +1,26 @@
+#extra-container {
+    background-color: rgb(243, 245, 247);
+}
+
+#footer-container {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10vh;
+    line-height: 5vh;
+    height: 35vh;
+}
+
+.footer-headers {
+    font-weight: bold;
+}
+
+.footer-elements:hover {
+    color: rgb(169, 211, 4);
+}
+
+#rights {
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    font-size: small;
+}

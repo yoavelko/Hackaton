@@ -1,4 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Alef&display=swap');
+
 body {
   margin: 0;
   padding: 0;
+  font-family: Alef;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: black;
 }
