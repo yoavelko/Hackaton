@@ -1,6 +1,7 @@
 import React from "react";
 import postData from "../../../post.json"
 import PostIntro from "../../PostIntro/PostIntro";
+import "../../PostIntro/Browse.css"
 import { useState, useContext } from "react";
 import { SectionContext } from "../../../context/SectionContext";
 import { InnerContext } from "../../../context/InnerContext";
@@ -17,7 +18,7 @@ function Requests() {
   return (
 
     <div>
-      <div id="posts-container">
+      <div className="posts-container">
         {detail &&
           detail.map((value, index) => (
             <PostIntro

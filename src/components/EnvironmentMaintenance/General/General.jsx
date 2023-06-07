@@ -4,6 +4,7 @@ import PostIntro from "../../PostIntro/PostIntro";
 import { useState, useContext } from "react";
 import { SectionContext } from "../../../context/SectionContext";
 import { InnerContext } from "../../../context/InnerContext";
+import "../../PostIntro/Browse.css"
 
 function General() {
 
@@ -16,7 +17,7 @@ function General() {
 
   return (
     <div>
-      <div id="posts-container">
+      <div className="posts-container">
         {detail &&
           detail.map((value, index) => (
             <PostIntro

@@ -1,0 +1,8 @@
+.posts-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+    margin: 10vh;
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "../PostIntro/SelectionPage.css";
 import { SectionContext } from "../../context/SectionContext";
 import { InnerContext } from "../../context/InnerContext";
 
@@ -25,12 +26,13 @@ function SecondHand() {
 
     return (
 
-        <div id="second-hand-page-container">
+        <div className="forum-container">
+           <div className="link-container">
             <div><Link to={"/Clothing"} onClick={handleClothing}>Clothing</Link></div>
             <div><Link to={"/ElectricProducts"} onClick={handleElectric}>Electric Products</Link></div>
             <div><Link to={"/Furniture"} onClick={handleFurniture}>Furniture</Link></div>
+           </div>
         </div>
     )
-
 }
-export default SecondHand
+export default SecondHand;
