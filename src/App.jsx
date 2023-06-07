@@ -13,7 +13,6 @@ import Clothing from "./components/SecondHand/Clothing/Clothing";
 import ElectricProducts from "./components/SecondHand/ElectricProducts/ElectricProducts";
 import Furniture from "./components/SecondHand/Furniture/Furniture";
 import PostPage from "./components/PostPage/PostPage";
-import PostUploader from "./components/PostUploader/PostUploaer";
 import PostIntro from "./components/PostIntro/PostIntro";
 import Login from "./components/Login/Login"
 import { LoggedContext } from './context/LoggedContext';
@@ -37,8 +36,6 @@ function App() {
             <Route path="/" element={<div> <Header /> <Outlet /> <Footer /></div>}>
               <Route index element={<HomePage />} />
               <Route path="PostPage" element={<PostPage />} />
-              <Route path="PostPage/:id" element={<PostPage />} />
-              <Route path="PostUploader" element={<PostUploader />} />
               <Route path="PostIntro" element={<PostIntro />} />
               <Route path="Environment" element={<Environment />} />
               <Route path="General" element={<General />} />
