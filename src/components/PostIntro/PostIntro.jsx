@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./PostIntro.css"
+
 function PostIntro({ result }) {
   return (
     <div className="intro-container">

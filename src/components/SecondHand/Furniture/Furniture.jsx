@@ -1,22 +1,32 @@
 import React from "react";
-import postData from "../../../post.json" 
+import postData from "../../../post.json"
 import PostIntro from "../../PostIntro/PostIntro";
 import { useState } from "react";
 import "../../PostIntro/Browse.css"
-function Furniture(){
-    const [detail, setDetail] = useState(postData.postData.secondHand.furniture)
-    return(
-        <div>
-            <div className="posts-container">
-            {detail &&  
+import { SectionContext } from "../../../context/SectionContext";
+import { InnerContext } from "../../../context/InnerContext";
+
+function Furniture() {
+
+  const [detail, setDetail] = useState(postData.postData.secondHand.furniture);
+  const {section, setSection} = useContext(SectionContext);
+  const {inner, setInner} = useContext(InnerContext);
+
+  setInner("recycle");
+  setSection("furniture");
+
+  return (
+    <div>
+      <div className="posts-container">
+        {detail &&
           detail.map((value, index) => (
             <PostIntro
               key={index}
               result={value}
             />
           ))}
-            </div>
-        </div>
-    )
+      </div>
+    </div>
+  )
 }
 export default Furniture

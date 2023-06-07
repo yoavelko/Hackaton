@@ -1,22 +1,33 @@
 import React from "react";
 import postData from "../../../post.json"
 import PostIntro from "../../PostIntro/PostIntro";
-import { useState } from "react";
 import "../../PostIntro/Browse.css"
-function Requests(){
-    const [detail, setDetail] = useState(postData.postData.recycle.requests)
-    return(
-        <div>
-            <div className="posts-container">
-            {detail &&  
+import { useState, useContext } from "react";
+import { SectionContext } from "../../../context/SectionContext";
+import { InnerContext } from "../../../context/InnerContext";
+
+function Requests() {
+
+  const [detail, setDetail] = useState(postData.postData.recycle.requests);
+  const {section, setSection} = useContext(SectionContext);
+  const {inner, setInner} = useContext(InnerContext);
+
+  setInner("locations");
+  setSection("requests");
+
+  return (
+
+    <div>
+      <div className="posts-container">
+        {detail &&
           detail.map((value, index) => (
             <PostIntro
               key={index}
               result={value}
             />
           ))}
-            </div>
-        </div>
-    )
+      </div>
+    </div>
+  )
 }
 export default Requests
