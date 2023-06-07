@@ -1,0 +1,27 @@
+#header-container {
+    display: flex;
+    justify-content: space-evenly;
+    height: 12vh;
+    align-items: center;
+    background-color: rgb(243, 245, 247);
+}
+
+.header-links {
+    font-weight: bold;
+    transition: .2s;
+}
+
+.header-links:hover {
+    color: rgb(169, 211, 4);
+}
+
+#logo {
+    font-weight: bold;
+    font-size: xx-large;
+    margin-left: -4vw;
+    transition: .2s;
+}
+
+#logo:hover {
+    transform: scale(1.1);
+}
