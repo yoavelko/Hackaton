@@ -1,6 +1,5 @@
-import { useState } from "react";
 import "./App.css";
-import { Route, Routes } from "react-router";
+import { Router, Route, Routes } from "react-router";
 import Layout from "./components/Layout/Layout";
 import HomePage from "./components/HomePage/HomePage";
 import Environment from "./components/EnvironmentMaintenance/Environment";
@@ -19,6 +18,7 @@ import PostUploader from "./components/PostUploader/PostUploaer";
 import PostIntro from "./components/PostIntro";
 import { LoggedContext } from './context/LoggedContext'
 import { IndexContext } from './context/IndexContext'
+
 function App() {
 
   const [logged, setLogged] = useState('');

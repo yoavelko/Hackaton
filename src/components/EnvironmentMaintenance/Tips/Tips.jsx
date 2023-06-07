@@ -1,8 +1,9 @@
 import React from "react";
-import postData from "./Post.json"
-import PostIntro from "./PostIntro";
+import postData from "../../../post.json"
+import PostIntro from "../../../PostIntro";
+import { useState } from "react";
 function Tips(){
-    const [detail, setDetail] = useState(postData.environment.tips)
+    const [detail, setDetail] = useState(postData.postData.environment.tips)
     return(
         <div>
             <div id="posts-container">

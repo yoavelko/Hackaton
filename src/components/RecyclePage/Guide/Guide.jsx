@@ -1,8 +1,9 @@
 import React from "react";
-import postData from "./Post.json"
-import PostIntro from "./PostIntro";
+import postData from "../../../post.json"
+import PostIntro from "../../../PostIntro";
+import { useState } from "react";
 function Guide(){
-    const [detail, setDetail] = useState(postData.secondHand.guide)
+    const [detail, setDetail] = useState(postData.postData.secondHand.guide)
     return(
         <div>
             <div id="post-container">
