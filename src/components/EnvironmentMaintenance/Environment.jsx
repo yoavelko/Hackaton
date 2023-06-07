@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "../PostIntro/SelectionPage.css";
 import { SectionContext } from "../../context/SectionContext";
 import { InnerContext } from "../../context/InnerContext";
+import { useContext } from "react";
 
 function Environment() {
 
