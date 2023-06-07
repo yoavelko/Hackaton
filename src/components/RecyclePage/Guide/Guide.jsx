@@ -8,7 +8,7 @@ import { InnerContext } from "../../../context/InnerContext";
 
 function Guide() {
 
-  const [detail, setDetail] = useState(postData.postData.secondHand.guide);
+  const [detail, setDetail] = useState(postData.postData.recycle.guide);
   const {section, setSection} = useContext(SectionContext);
   const {inner, setInner} = useContext(InnerContext);
 
@@ -17,7 +17,7 @@ function Guide() {
 
   return (
     <div>
-      <div id="post-container">
+      <div className="posts-container">
         {detail &&
           detail.map((value, index) => (
             <PostIntro
