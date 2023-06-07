@@ -4,6 +4,7 @@ import { useContext, useState } from 'react'
 import { LoggedContext } from '../../context/LoggedContext'
 import { IndexContext } from '../../context/IndexContext'
 import usersData from '../../user.json'
+import { Link } from 'react-router-dom';
 
 function Login() {
 
@@ -87,6 +88,7 @@ function Login() {
 
     return (
         <div id='Login-page-conatiner'>
+            <Link to='/PostPage'>PostPage</Link>
             <div id='logSignContainer'>
                 <div id='loginContainer' className='dualContainer'>
                     <h1 className='headers'>Login</h1>
