@@ -1,13 +1,14 @@
 import React from "react";
-import json from "./Post.json"
+import postData from "./Post.json"
+import PostIntro from "./PostIntro";
 function Furniture(){
-    const [detail, setDetail] = useState(json.results)
+    const [detail, setDetail] = useState(postData.secondHand.furniture)
     return(
         <div>
-            <div id="furniture-container">
+            <div id="posts-container">
             {detail &&  
           detail.map((value, index) => (
-            <Tablet
+            <PostIntro
               key={index}
               result={value}
             />
@@ -15,8 +16,5 @@ function Furniture(){
             </div>
         </div>
     )
-
-
-
 }
 export default Furniture
