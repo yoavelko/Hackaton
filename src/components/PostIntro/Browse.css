@@ -1,36 +1,81 @@
 .intro-container {
   display: flex;
-  width: 55vw;
+  width: 70vw;
   height: 10vh;
-  border-radius: 20px;
+  border-radius: 30px;
   margin-left: 5vw;
   padding: 1.5vw;
-  background-color: rgb(215 253 224);
+  background-color: rgb(243, 245, 247);
+  border: 2px solid rgb(169, 211, 4);
   flex-direction: column;
 }
+
 .intro-header {
   font-size: 1.2vw;
   font-weight: bold;
+  margin-top: 1.8vh;
+  margin-left: 0.5vw;
 }
+
 .intro-info {
   font-size: 1.1vw;
   display: flex;
   justify-content: space-between;
 }
+
 .intro-user-pic {
     margin-right: 1vw;
     width: 45px;
     height: 45px;
     border-radius: 100%;
 }
+
 .user-pic-container{
     display: flex;
     margin-top: 1vh;
 }
+
 .username-intro{
     display: flex;
     align-items: center;
+    font-size: 1.4vw;
+    font-weight: bold;
 }
+
+.posts-container {
+    height: 100vh;
+    padding-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3vh;
+}
+
+.inner-forums-header {
+    font-size: xx-large;
+    font-weight: bold;
+    justify-self: flex-start;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+}
+
+#create-btn {
+    align-self: baseline;
+    margin-left: 15%;
+    width: 15vw;
+    height: 6vh;
+    border-radius: 20px;
+    border: rgb(169, 211, 4) solid;
+    background-color: rgb(169, 211, 4);
+    color: rgb(243, 245, 247);
+}
+
+#create-btn:hover {
+    background-color: rgb(243, 245, 247);
+    color: rgb(169, 211, 4);
+}
+
+
 @media only screen and (max-width: 900px){
     .intro-header{
         font-size: 1.8vw;
@@ -46,11 +91,13 @@
         height: 14vh;
     }
 }
+
 @media only screen and (max-width: 670px){
     .intro-header{
         font-size: 2.2vw;
     }
 }
+
 @media only screen and (max-width: 520px){
     .intro-header{
         font-size: 2.5vw;
@@ -63,6 +110,7 @@
         height: 35px;
     }
 }
+
 @media only screen and (max-width: 435px){
     .intro-header{
         font-size: 2.7vw;
@@ -72,6 +120,7 @@
         height: 32px;
     }
 }
+
 @media only screen and (max-width: 392px){
     .intro-header{
         font-size: 3vw;

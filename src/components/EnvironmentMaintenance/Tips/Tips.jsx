@@ -5,6 +5,7 @@ import { useState, useContext } from "react";
 import "../../PostIntro/Browse.css"
 import { SectionContext } from "../../../context/SectionContext";
 import { InnerContext } from "../../../context/InnerContext";
+import { Link } from "react-router-dom";
 
 function Tips() {
 
@@ -16,16 +17,17 @@ function Tips() {
   setInner("tips");
 
   return (
-    <div>
-      <div className="posts-container">
-        {detail &&
-          detail.map((value, index) => (
-            <PostIntro
-              key={index}
-              result={value}
-            />
-          ))}
-      </div>
+
+    <div className="posts-container">
+      <div className="inner-forums-header">Environment General Forum</div>
+      <button id="create-btn"><Link to='/PostPage'>Create New Post</Link></button>
+      {detail &&
+        detail.map((value, index) => (
+          <PostIntro
+            key={index}
+            result={value}
+          />
+        ))}
     </div>
   )
 }

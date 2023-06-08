@@ -98,7 +98,7 @@ function Login() {
     }
 
     return (
-        <div id='Login-page-conatiner'>
+        <div id='login-page-conatiner'>
             <div id='logSignContainer'>
                 <div id='loginContainer' className='dualContainer'>
                     <h1 className='headers'>Login</h1>

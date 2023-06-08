@@ -5,27 +5,30 @@ import { useState, useContext } from "react";
 import { SectionContext } from "../../../context/SectionContext";
 import { InnerContext } from "../../../context/InnerContext";
 import "../../PostIntro/Browse.css"
+import { Link } from "react-router-dom";
+
 
 function General() {
 
   const [detail, setDetail] = useState(postData.postData.environment.general);
-  const {section, setSection} = useContext(SectionContext);
-  const {inner, setInner} = useContext(InnerContext);
+  const { section, setSection } = useContext(SectionContext);
+  const { inner, setInner } = useContext(InnerContext);
 
   setSection("environment");
   setInner("general");
 
   return (
-    <div>
-      <div className="posts-container">
-        {detail &&
-          detail.map((value, index) => (
-            <PostIntro
-              key={index}
-              result={value}
-            />
-          ))}
-      </div>
+
+    <div className="posts-container">
+      <div className="inner-forums-header">Environment General Forum</div>
+      <button id="create-btn"><Link to='/PostPage'>Create New Post</Link></button>
+      {detail &&
+        detail.map((value, index) => (
+          <PostIntro
+            key={index}
+            result={value}
+          />
+        ))}
     </div>
   )
 }
