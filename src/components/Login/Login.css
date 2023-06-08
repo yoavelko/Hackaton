@@ -95,12 +95,12 @@
 }
 
 #signup-header {
-    margin-bottom: -5vh;
+    margin-bottom: 5vh;
 }
 
 #terms {
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: -10vh;
+    margin: auto;
 }
 
 #termsLink {
@@ -165,6 +165,11 @@
         flex-direction: column;
         height: 140vh;
     }
+    #profile-select{
+    height: 6vh;
+    width: 20vw;
+    }
+}
 
     #breaker {
         display: none;
@@ -193,4 +198,20 @@
     #loginSubmit {
         width: 30vw;
     }
+
+@media only screen and (max-width: 500px){
+    #logincontainer{
+       width: 100vw;
+    }
+    .intro-user-pic {
+        width: 32px;
+        height: 32px;
+    }
+    #signupContainer{
+        flex-direction: column;
+    }
+    #profile-select{
+        height: 4vh;
+        width: 30vw;
+        }
 }
