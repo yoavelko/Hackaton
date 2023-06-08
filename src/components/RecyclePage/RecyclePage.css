@@ -22,6 +22,7 @@
     color: white;
     text-shadow:  2px 2px 10px #000000;
     transition: .2s;
+    box-shadow: #787171 0px 0px 25px;
 }
 
 #recycling-guides:hover {
@@ -31,7 +32,7 @@
 #recycle-locations {
     background-image: url('https://discoverbradenton.com/wp-content/uploads/2020/08/nature-3294632_1920.jpg');
     background-repeat: no-repeat;
-    background-size: 120% 100%;
+    background-size: 140% 100%;
     background-position: 50%;
     width: 25vw;
     height: 25vw;
@@ -44,6 +45,7 @@
     color: rgb(255, 255, 255);
     text-shadow:  2px 2px 10px #000000;
     transition: .2s;
+    box-shadow: #787171 0px 0px 25px;
 }
 
 #recycle-locations:hover {
@@ -66,6 +68,7 @@
     color: white;
     text-shadow:  2px 2px 10px #000000;
     transition: .2s;
+    box-shadow: #787171 0px 0px 25px;
 }
 
 #recycle-request:hover {

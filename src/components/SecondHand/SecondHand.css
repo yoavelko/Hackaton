@@ -1,27 +1,78 @@
-#clothing-forum-container{
+#second-page-container {
+    height: 100vh;
+    padding-top: 40vh;
+}
+
+#second-inner-container {
     display: flex;
-    background-image: "https://thumbs.dreamstime.com/b/second-hand-concept-recycle-clothing-laundry-dry-cleaning-icon-vector-199124613.jpg";
-    border-width: 2px;
-    border-color: beige;
-    border-style: ridge;
-    padding: 1vw;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#second-clothing {
+    background-image: url('https://media.timeout.com/images/105497835/image.jpg');
+    background-size: 120% 100%;
+    background-position: 50%;
+    width: 25vw;
+    height: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
     font-size: larger;
+    font-weight: bold;
+    color: white;
+    text-shadow:  2px 2px 10px #000000;
+    transition: .2s;
+    box-shadow: #787171 0px 0px 25px;
 }
-#electric-forum-container{
-    display: flex;
-    background-image: "https://w1.pngwing.com/pngs/556/766/png-transparent-recycling-logo-computer-recycling-electronic-waste-recycling-bin-recycling-symbol-singlestream-recycling-computer-monitors-computer-hardware.png";
-    border-width: 2px;
-    border-color: beige;
-    border-style: ridge;
-    padding: 1vw;
-    font-size: larger;    
+
+#second-clothing:hover {
+    transform: scale(1.1);
 }
-#furniture-forum-container{
+
+#second-electric {
+    background-image: url('https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/newscms/2019_17/2829986/190422-old-cell-phones-stock-cs-909p.jpg');
+    background-repeat: no-repeat;
+    background-size: 160% 100%;
+    background-position: 50%;
+    width: 25vw;
+    height: 25vw;
     display: flex;
-    background-image: "https://cdn.shortpixel.ai/spai/ret_img/https://winwarehouse.org/content/uploads/2021/10/win_icon_efficiency02.svg";
-    border-width: 2px;
-    border-color: beige;
-    border-style: ridge;
-    padding: 1vw;
-    font-size: larger;   
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-shadow:  2px 2px 10px #000000;
+    transition: .2s;
+    box-shadow: #787171 0px 0px 25px;
+}
+
+#second-electric:hover {
+    transform: scale(1.1);
+}
+
+#second-furniture {
+    background-image: url('https://www.telegraph.co.uk/content/dam/interiors/2018/11/01/TELEMMGLPICT000179595798_trans_NvBQzQNjv4Bqjj7NJ3YiIjAb1WHq3sE3uhKttfbwsG9PqG0T37pchKo.jpeg');
+    background-repeat: no-repeat;
+    background-size: 160% 100%;
+    background-position: 50%;
+    width: 25vw;
+    height: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+    text-shadow:  2px 2px 10px #000000;
+    transition: .2s;
+    box-shadow: #787171 0px 0px 25px;
+}
+
+#second-furniture:hover {
+    transform: scale(1.1);
 }
