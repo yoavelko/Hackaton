@@ -1,0 +1,24 @@
+#clothing-forum-container{
+    display: flex;
+    border-width: 2px;
+    border-color: beige;
+    border-style: ridge;
+    padding: 1vw;
+    font-size: larger;
+}
+#electric-forum-container{
+    display: flex;
+    border-width: 2px;
+    border-color: beige;
+    border-style: ridge;
+    padding: 1vw;
+    font-size: larger;    
+}
+#furniture-forum-container{
+    display: flex;
+    border-width: 2px;
+    border-color: beige;
+    border-style: ridge;
+    padding: 1vw;
+    font-size: larger;   
+}

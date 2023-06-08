@@ -1,0 +1,25 @@
+#recycling-forum-container{
+    display: flex;
+    border-width: 2px;
+    border-color: beige;
+    border-style: ridge;
+    padding: 1vw;
+    font-size: larger;
+}
+#location-forum-container{
+    display: flex;
+    border-width: 2px;
+    border-color: beige;
+    border-style: ridge;
+    padding: 1vw;
+    font-size: larger;
+    margin-right: 2vw;
+}
+#requests-forum-container{
+    display: flex;
+    border-width: 2px;
+    border-color: beige;
+    border-style: ridge;
+    padding: 1vw;
+    font-size: larger;
+}

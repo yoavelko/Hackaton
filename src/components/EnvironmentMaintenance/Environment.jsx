@@ -24,7 +24,7 @@ function Environment() {
     return (
 
         <div className="forum-container">
-          <div> <span classname="category-header">Forum categories:</span></div>
+          <div className="category-header">Forum categories:</div>
           <br />
           <div>
           <div className="link-container">
