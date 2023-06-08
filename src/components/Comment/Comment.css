@@ -1,0 +1,23 @@
+#comment-component-container {
+    padding: 5%;
+    margin: 5%;
+    background-color: rgb(243, 245, 247);
+    border-radius: 15px;
+    text-align: left;
+    line-height: 7vh;
+}
+
+#comment-header {
+    font-size: larger;
+    display: flex;
+}
+
+#comment-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+}
+
+#comment-username {
+    padding-left: 1vw;
+}

@@ -11,9 +11,9 @@ function ElectricProducts() {
   const [detail, setDetail] = useState(postData.postData.secondHand.electric);
   const {section, setSection} = useContext(SectionContext);
   const {inner, setInner} = useContext(InnerContext);
-
-  setInner("recycle");
-  setSection("electric");
+  
+  setSection("secondHand");
+  setInner("electric");
 
   return (
 
