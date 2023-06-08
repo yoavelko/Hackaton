@@ -25,3 +25,15 @@
 #logo:hover {
     transform: scale(1.1);
 }
+
+@media only screen and (max-width: 769px){
+    #recycle-link{
+       display: none;
+    }
+    #env-link{
+        display: none;
+     }
+     #shand-link{
+        display: none;
+     }
+}

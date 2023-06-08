@@ -1,0 +1,58 @@
+#second-hand-header {
+    width:320px; 
+    height:240px;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/5818/5818268.png);
+    background-size: 100% 100%;
+}
+#enviorment-header {
+    width:320px; 
+    height:240px;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/2926/2926961.png);
+    background-size: 100% 100%;
+}
+#recycle-header{
+    width:320px; 
+    height:240px;
+    background-image: url(https://formplastics.com/wp-content/uploads/2018/12/recycle.png);
+    background-size: 100% 100%;
+}
+#second-hand-container {
+    font-size: small;
+}
+#enviorment-container {
+    font-size: small;
+}
+#recycle-container{
+    font-size: small;
+}
+#Home-container {
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 4vh;
+    gap: 8vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    
+}
+#title {
+    text-align: center;
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* padding: 7vw; */
+} 
+#test{
+    margin-top: 100px;
+    margin-left: 180px;
+    margin-right: 100px;
+    line-height: 200px;
+    border: 1px solid black;
+    text-align: center;
+    width: 100px;
+}

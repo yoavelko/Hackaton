@@ -4,6 +4,7 @@ import "../PostIntro/SelectionPage.css";
 import { SectionContext } from "../../context/SectionContext";
 import { InnerContext } from "../../context/InnerContext";
 import { useContext } from "react";
+import "../EnvironmentMaintenance/Environment.css"
 
 function Environment() {
 
@@ -23,9 +24,13 @@ function Environment() {
     return (
 
         <div className="forum-container">
+          <div> <span classname="category-header">Forum categories:</span></div>
+          <br />
+          <div>
           <div className="link-container">
-            <div><Link to={"/Tips"} onClick={handleTips}>Tips forum</Link></div>
-            <div><Link to={"/General"} onClick={handleGeneral}>General forum</Link></div>
+          <Link to={"/Tips"} onClick={handleTips}><div id="tip-forum-container">Tips forum</div></Link>
+          <Link to={"/General"} onClick={handleGeneral}><div id="general-forum-container">General forum</div></Link>
+          </div>
           </div>
         </div>
     )
