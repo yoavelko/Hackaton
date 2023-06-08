@@ -1,28 +1,73 @@
-#recycling-forum-container{
-    display: flex;
-    border-width: 2px;
-    border-color: beige;
-    border-style: ridge;
-    padding: 1vw;
-    background-image:"https://dec.vermont.gov/sites/dec/files/wmp/SolidWaste/Images/recycling-symbol.jpg";
-    font-size: larger;
+#recycle-page-container {
+    height: 100vh;
+    padding-top: 40vh;
 }
-#location-forum-container{
+
+#recycle-inner-container {
     display: flex;
-    background-image: "https://icon-library.com/images/recycling-icon/recycling-icon-26.jpg";
-    border-width: 2px;
-    border-color: beige;
-    border-style: ridge;
-    padding: 1vw;
-    font-size: larger;
-    margin-right: 2vw;
+    justify-content: space-evenly;
+    align-items: center;
 }
-#requests-forum-container{
+
+#recycling-guides {
+    background-image: url('https://ezop.com/wp-content/uploads/2021/04/dos-donts-of-recycling-wisconsin-750x510.jpg');
+    width: 25vw;
+    height: 25vw;
     display: flex;
-    background-image: "https://cdn2.iconfinder.com/data/icons/ecology-and-recycling/85/recycling_recycle_plastic_bottle_ecology-512.png";
-    border-width: 2px;
-    border-color: beige;
-    border-style: ridge;
-    padding: 1vw;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
     font-size: larger;
+    font-weight: bold;
+    color: white;
+    text-shadow:  2px 2px 10px #000000;
+    transition: .2s;
+}
+
+#recycling-guides:hover {
+    transform: scale(1.1);
+}
+
+#recycle-locations {
+    background-image: url('https://discoverbradenton.com/wp-content/uploads/2020/08/nature-3294632_1920.jpg');
+    background-repeat: no-repeat;
+    background-size: 120% 100%;
+    background-position: 50%;
+    width: 25vw;
+    height: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-shadow:  2px 2px 10px #000000;
+    transition: .2s;
+}
+
+#recycle-locations:hover {
+    transform: scale(1.1);
+}
+
+#recycle-request {
+    background-image: url('https://www.cnet.com/a/img/resize/5f7dbd26a1e2f95d43c5eea2ac28a9d19f0707f5/2022/04/21/6a3f177d-3ecd-4a90-8a72-021c996ccf93/gettyimages-1187829731.jpg?auto=webp&fit=crop&height=675&width=1200');
+    background-repeat: no-repeat;
+    background-size: 120% 100%;
+    background-position: 50%;
+    width: 25vw;
+    height: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+    text-shadow:  2px 2px 10px #000000;
+    transition: .2s;
+}
+
+#recycle-request:hover {
+    transform: scale(1.1);
 }

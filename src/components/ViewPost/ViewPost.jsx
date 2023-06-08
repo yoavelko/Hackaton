@@ -49,7 +49,9 @@ function ViewPost() {
                 </div>
                 <div id='view-content-container'>
                     <div id='view-content'>{postData.postData[section][inner][id].content}</div>
+                    <br />
                     <div id='view-petition'>{postData.postData[section][inner][id].petition}</div>
+                    <br />
                     <div id='view-event'>{postData.postData[section][inner][id].event}</div>
                 </div>
             </div>

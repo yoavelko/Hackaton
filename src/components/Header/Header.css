@@ -4,6 +4,9 @@
     height: 12vh;
     align-items: center;
     background-color: rgb(243, 245, 247);
+    border-bottom: 4px solid rgb(169, 211, 4);
+    position: fixed;
+    width: 100%;
 }
 
 #dropdown-navbar{
@@ -116,6 +119,7 @@ option{
     align-items: center;
 }
 .header-links {
+    font-size: large;
     font-weight: bold;
     transition: .2s;
 }

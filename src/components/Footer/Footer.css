@@ -1,5 +1,6 @@
 #extra-container {
     background-color: rgb(243, 245, 247);
+    border-top: 4px solid rgb(169, 211, 4);
 }
 
 #footer-container {
@@ -16,6 +17,7 @@
 
 .footer-elements:hover {
     color: rgb(169, 211, 4);
+    cursor: pointer;
 }
 
 #rights {
