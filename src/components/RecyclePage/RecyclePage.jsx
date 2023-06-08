@@ -32,7 +32,6 @@ function RecyclePage() {
           <div id="recycling-guides">Recycling Guides</div>
         </Link>
         <Link to={"/RecycleLocations"} onClick={handleLocations}>
-          {" "}
           <div id="recycle-locations">Where to Recycle</div>
         </Link>
         <Link to={"/Requests"} onClick={handleRequests}>
