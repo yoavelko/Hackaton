@@ -18,19 +18,19 @@
     z-index: 200;
 }
 .button{
-    width: 30px;
-    height: 30px;
+    width: 43px;
+    height: 35px;
     background: rgb(255, 196, 0);
-    padding: 12px;
+    padding: 9px;
     display: inline-block;
     cursor: pointer;
     transition: all 0.2s ease-in;
-    padding-top: 8px;
-    line-height: 8px;
+    padding-top: 12px;
+    line-height: 9px;
     text-align: left;
     position: fixed;
     right: 0;
-    top: 0;
+    top: 0px;
     gap: 5.7px;
     display: flex;
     z-index: 100;

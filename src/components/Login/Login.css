@@ -1,50 +1,50 @@
 #logSignContainer {
-    margin: 5vw;
-    height: 90vh;
-    background-color: rgb(243, 245, 247);
-    border-radius: 20px;
-    display: flex;
-    justify-content: space-evenly
+  margin: 5vw;
+  height: 90vh;
+  background-color: rgb(243, 245, 247);
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 #login-page-conatiner {
-    padding-top: 8vw;
+  padding-top: 8vw;
 }
 
 #loginContainer {
-    padding-bottom: 11vh;
+  padding-bottom: 11vh;
 }
 
 .dualContainer {
-    margin: 5vw;
-    background-color: rgb(243, 245, 247);
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    line-height: 6vh;
+  margin: 5vw;
+  background-color: rgb(243, 245, 247);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  line-height: 6vh;
 }
 
 #signupContainer {
-    margin: 5vw;
-    background-color: rgb(243, 245, 247);
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    line-height: 6vh;
+  margin: 5vw;
+  background-color: rgb(243, 245, 247);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  line-height: 6vh;
 }
 
 #breaker {
-    height: 90%;
-    top: 5%;
-    border-left: 4px solid rgba(0, 0, 0, 0.301);
-    position: relative;
+  height: 90%;
+  top: 5%;
+  border-left: 4px solid rgba(0, 0, 0, 0.301);
+  position: relative;
 }
 
 #mediaBreaker {
-    display: none;
+  display: none;
 }
 
 #or {
@@ -54,168 +54,174 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 50%;
-    left: -2.5vw;
     background-color: rgb(243, 245, 247);
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: rgba(0, 0, 0, 0.301);
+    top: 38vh;
+    left: -2.7vw;
 }
 
-.inputContainers {
+#or1 {
+    width: 5vw;
+    height: 5vh;
     display: flex;
     justify-content: center;
-    margin-right: 36px;
+    align-items: center;
+    position: absolute;
+    background-color: rgb(243, 245, 247);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.301);
+    top: -16px;
+    left: 47%;
+    padding: 1rem;
+  }
+
+.inputContainers {
+  display: flex;
+  justify-content: center;
+  margin-right: 36px;
 }
 
 .icons {
-    margin-top: 1.5vh;
-    margin-right: 1vw;
-    opacity: 0.7;
+  margin-top: 1.5vh;
+  margin-right: 1vw;
+  opacity: 0.7;
 }
 
 .headers {
-    margin-bottom: 5vh;
-    font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 5vh;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #loginSubmit {
-    width: 8vw;
-    height: 6vh;
-    border-radius: 20px;
-    border: rgb(169, 211, 4) solid;
-    background-color: rgb(169, 211, 4);
-    color: rgb(243, 245, 247);
+  width: 8vw;
+  height: 6vh;
+  border-radius: 20px;
+  border: rgb(169, 211, 4) solid;
+  background-color: rgb(169, 211, 4);
+  color: rgb(243, 245, 247);
 }
 
 #loginSubmit:hover {
-    background-color: rgb(243, 245, 247);
-    color: rgb(169, 211, 4);
+  background-color: rgb(243, 245, 247);
+  color: rgb(169, 211, 4);
 }
 
 #signup-header {
-    margin-bottom: 5vh;
+  margin-bottom: 5vh;
 }
 
 #terms {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
 }
 
 #termsLink {
-    color: blueviolet;
+  color: blueviolet;
 }
 
 #termsLink:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .linkedTermsNone {
-    display: none;
+  display: none;
 }
 
 .linkedTermsBlock {
-    display: block;
-    position: absolute;
-    margin-left: 9%;
-    transform: translateY(-30px);
+  display: block;
+  position: absolute;
+  margin-left: 9%;
+  transform: translateY(-30px);
 }
 
 .inputs {
-    line-height: 40px;
-    margin-bottom: 3vh;
+  line-height: 40px;
+  margin-bottom: 3vh;
 }
 
 #profile-select {
-    width: 11vw;
-    height: 6.5vh;
+  width: 11vw;
+  height: 6.5vh;
 }
 
 .sub-btns {
-    width: 150px;
-    height: 40px;
-    align-self: center;
-    border-radius: 10px;
-    background-color: rgb(169, 211, 4);
-    border: 3px rgb(169, 211, 4) solid;
-    color: white;
-    font-weight: bold;
+  width: 150px;
+  height: 40px;
+  align-self: center;
+  border-radius: 10px;
+  background-color: rgb(169, 211, 4);
+  border: 3px rgb(169, 211, 4) solid;
+  color: white;
+  font-weight: bold;
 }
 
 .sub-btns:hover {
-    background-color: white;
-    color: rgb(169, 211, 4);
-    cursor: pointer;
+  background-color: white;
+  color: rgb(169, 211, 4);
+  cursor: pointer;
 }
 
 .error-msg {
-    color: red;
+  color: red;
 }
 
 #avatar-img {
-    border-radius: 100px;
+  border-radius: 100px;
 }
 
 @media screen and (max-width: 768px) {
-
-    #logSignContainer {
-        margin: 0;
-        border-radius: 0;
-        flex-direction: column;
-        height: 140vh;
-    }
-    #profile-select{
+  #logSignContainer {
+    margin: 0;
+    border-radius: 0;
+    flex-direction: column;
+    height: 140vh;
+  }
+  #profile-select {
     height: 6vh;
     width: 20vw;
-    }
+  }
+  #breaker {
+    display: none;
+  }
+  #mediaBreaker {
+    display: block;
+    width: 100%;
+    border-bottom: 4px solid rgba(0, 0, 0, 0.301);
+    position: relative;
+    margin-top: 10vh;
+    margin-bottom: 6vh;
+  }
+  .linkedTermsBlock {
+    width: 75%;
+  }
+
+  #loginSubmit {
+    width: 30vw;
+  }
 }
 
-    #breaker {
-        display: none;
-    }
+@media only screen and (max-width: 500px) {
+  #logincontainer {
+    width: 100vw;
+  }
 
-    #mediaBreaker {
-        display: block;
-        width: 90%;
-        left: 5%;
-        border-bottom: 4px solid rgba(0, 0, 0, 0.301);
-        position: relative;
-        margin-top: 10vh;
-        margin-bottom: 6vh;
-    }
-
-    #or {
-        left: 42.5%;
-        top: -3.7vw;
-        width: 15%;
-    }
-
-    .linkedTermsBlock {
-        width: 75%;
-    }
-
-    #loginSubmit {
-        width: 30vw;
-    }
-
-@media only screen and (max-width: 500px){
-    #logincontainer{
-       width: 100vw;
-    }
-
-    .intro-user-pic {
-        width: 32px;
-        height: 32px;
-    }
-    #signupContainer{
-        flex-direction: column;
-    }
-    #profile-select{
-        height: 4vh;
-        width: 30vw;
-        }
-        #logSignContainer{
-            height: 160vh;
-        }
+  .intro-user-pic {
+    width: 32px;
+    height: 32px;
+  }
+  #signupContainer {
+    flex-direction: column;
+  }
+  #profile-select {
+    height: 4vh;
+    width: 30vw;
+  }
+  #logSignContainer {
+    height: 160vh;
+  }
 }
