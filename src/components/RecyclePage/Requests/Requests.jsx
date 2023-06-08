@@ -12,8 +12,8 @@ function Requests() {
   const {section, setSection} = useContext(SectionContext);
   const {inner, setInner} = useContext(InnerContext);
 
-  setInner("locations");
-  setSection("requests");
+  setInner("requests");
+  setSection("recycle");
 
   return (
 

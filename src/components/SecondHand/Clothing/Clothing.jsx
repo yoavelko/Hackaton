@@ -12,8 +12,8 @@ function Clothing() {
   const {section, setSection} = useContext(SectionContext);
   const {inner, setInner} = useContext(InnerContext);
 
-  setInner("recycle");
-  setSection("clothing");
+  setSection("secondHand");
+  setInner("clothing");
 
   return (
 
