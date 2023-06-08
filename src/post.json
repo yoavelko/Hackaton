@@ -5,18 +5,26 @@
         {
           "id": 1,
           "username": "nusi",
+          "profilepic": "",
           "header": "Where can I get old car wheels?",
           "category": "question",
           "content": "I have a big recycle project at school I need some old car wheels for it",
           "file": "",
           "like": "",
-          "comments": [],
+          "comments": [
+            {
+              "username": "yoav",
+              "profilepic": "",
+              "content":"this is the worst post i have ever seenn in my life. just ever."
+            }
+          ],
           "petition": "",
           "event": ""
         },
         {
           "id": 2,
           "username": "noam123",
+          "profilepic": "",
           "header": "post",
           "category": "I built a castle!",
           "content": "I built a castle only by things I wanted to throw away, I am so proud of myself!!",
@@ -31,6 +39,7 @@
         {
           "id": 1,
           "username": "Agam43",
+          "profilepic": "",
           "header": "A guide on how to build a wooden dog kennel",
           "category": "post",
           "content": "Take a discarded wood and glue, and stick the pieces of wood with glue.",
@@ -43,6 +52,7 @@
         {
           "id": 2,
           "username": "Yarden5",
+          "profilepic": "",
           "header": "Who knows how to make a hat from pieces of fabric?",
           "category": "request",
           "content": "I have a lot of pieces of fabric at home and I have to make a hat for the show tomorrow, can you help?",
@@ -57,6 +67,7 @@
         {
           "id": 1,
           "username": "noa8",
+          "profilepic": "",
           "header": "Does anyone know where there is a place that recycles iron?",
           "category": "question",
           "content": "I work in a factory that throws away a lot of iron due to mistakes by the workers, and we don't know where to recycle all the iron. Can you help?",
@@ -69,6 +80,7 @@
         {
           "id": 2,
           "username": "yoav",
+          "profilepic": "",
           "header": "Can someone please help me recycle a lot of plastic bottles?",
           "category": "request",
           "content": "I need to recycle a lot of plastic bottles but I can't lift them all alone",
@@ -81,6 +93,7 @@
         {
           "id": 3,
           "username": "ggjgg55",
+          "profilepic": "",
           "header": "New cycle area!",
           "category": "post",
           "content": "A new cycle area has opened in Ramat Gan, the place is open from 8 am to 10 pm",
@@ -97,6 +110,7 @@
         {
           "id": 1,
           "username": "ShaSha4",
+          "profilepic": "",
           "header": "Does anyone know where they sell a second hand closet in Haifa?",
           "category": "question",
           "content": "I moved to Haifa and I urgently need a closet to put my clothes in.",
@@ -109,6 +123,7 @@
         {
           "id": 2,
           "username": "idodo10",
+          "profilepic": "",
           "header": "Does anyone want a second hand closet?",
           "category": "post",
           "content": "I bought a new closet for my house and I don't use the old one, if anyone lives in Haifa and needs it, let me know",
@@ -123,6 +138,7 @@
         {
           "id": 1,
           "username": "omerAdam",
+          "profilepic": "",
           "header": "Where can I buy a cheap second hand TV in Tel Aviv?",
           "category": "question",
           "content": "I need to buy a cheap TV in Tel Aviv, I have a budget of NIS 300, can anyone help me?",
@@ -135,6 +151,7 @@
         {
           "id": 2,
           "username": "eyalTheKing44",
+          "profilepic": "",
           "header": "Where can I buy a cheap second hand Phone in Tel Aviv?",
           "category": "question",
           "content": "My phone is broken and I have to buy a new one, but I don't have much money, so I want to buy the phone second hand.",
@@ -147,6 +164,7 @@
         {
           "id": 3,
           "username": "ravidd0",
+          "profilepic": "",
           "header": "Computer for sale",
           "category": "post",
           "content": "I am selling an IPhone 10 for two thousand shekels, if anyone wants to it reply to this post.",
@@ -161,6 +179,7 @@
         {
           "id": 1,
           "username": "mietav43",
+          "profilepic": "",
           "header": "A new second hand clothing store is opening!!",
           "category": "post",
           "content": "I am opening a new clothing store, the store is in Metula and it is open from 7 am to 9 pm.",
@@ -173,6 +192,7 @@
         {
           "id": 2,
           "username": "giladdd6",
+          "profilepic": "",
           "header": "Anyone need Nike shoes size 47 (European size)?",
           "category": "post",
           "content": "I have a black Nike shoe that I want to throw away if anyone wants it please respond, after a week I will delete the post.",
@@ -185,6 +205,7 @@
         {
           "id": 3,
           "username": "lior73",
+          "profilepic": "",
           "header": "My second-hand clothing store is closing",
           "category": "post",
           "content": "I'm closing my thrift store, and I'm opening a new one somewhere else. I will give details later.",
@@ -201,6 +222,7 @@
         {
           "id": 1,
           "username": "noaggt8",
+          "profilepic": "",
           "header": "Dor beach cleaning",
           "category": "event",
           "content": "On Sunday at 2 in the afternoon we will go to Dor beach and we will clean it, please don't be late!",
@@ -213,6 +235,7 @@
         {
           "id": 2,
           "username": "popo123",
+          "profilepic": "",
           "header": "Ofakim Park looks very dirty!",
           "category": "post",
           "content": "I walked today at 5 o'clock in Ofakim Park and was amazed to see how dirty it is and looks bad, the municipality must clean the park!",
@@ -227,6 +250,7 @@
         {
           "id": 1,
           "username": "Danialu7",
+          "profilepic": "",
           "header": "I need a tip about menstruation",
           "category": "question",
           "content": "I feel like I'm polluting the environment and I don't understand why, can someone write me tips that will help me protect the environment more?",
@@ -239,6 +263,7 @@
         {
           "id": 2,
           "username": "koko8",
+          "profilepic": "",
           "header": "A tip for protecting the environment",
           "category": "post",
           "content": "My tip is very simple, all you have to do is instead of eating with disposable utensils, eat with reusable utensils and save yourself a lot of throwing plastic in the trash.",
@@ -251,6 +276,7 @@
         {
           "id": 3,
           "username": "Simo688",
+          "profilepic": "",
           "header": "Washing dishes or using a dishwasher?",
           "category": "question",
           "content": "I'm debating which can help the environment more: Washing dishes or using a dishwasher. Can someone help me?",

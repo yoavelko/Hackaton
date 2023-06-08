@@ -12,9 +12,9 @@ function Furniture() {
   const {section, setSection} = useContext(SectionContext);
   const {inner, setInner} = useContext(InnerContext);
 
-  setInner("recycle");
-  setSection("furniture");
-
+  setSection("secondHand");
+  setInner("furniture");
+  
   return (
     <div>
       <div className="posts-container">

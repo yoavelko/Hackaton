@@ -19,10 +19,13 @@ import { LoggedContext } from './context/LoggedContext';
 import { IndexContext } from './context/IndexContext';
 import { InnerContext } from "./context/InnerContext";
 import { SectionContext } from "./context/SectionContext";
+import { IdContext } from "./context/IdContext";
 import { useState } from "react";
 import { Outlet } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
+import ViewPost from "./components/ViewPost/ViewPost";
+import Comment from "./components/Comment/Comment";
 
 
 function App() {
@@ -31,6 +34,7 @@ function App() {
   const [userIndex, setUserIndex] = useState('');
   const [inner, setInner] = useState('');
   const [section, setSection] = useState('');
+  const [id, setId] = useState('');
 
   return (
     <div id="app-container">
@@ -38,25 +42,29 @@ function App() {
         <IndexContext.Provider value={{ userIndex, setUserIndex }}>
           <SectionContext.Provider value={{ section, setSection }}>
             <InnerContext.Provider value={{ inner, setInner }}>
-              <Routes>
-                <Route path="/" element={<div> <Header /> <Outlet /> <Footer /></div>}>
-                  <Route index element={<HomePage />} />
-                  <Route path="PostPage" element={<PostPage />} />
-                  <Route path="PostIntro" element={<PostIntro />} />
-                  <Route path="Environment" element={<Environment />} />
-                  <Route path="General" element={<General />} />
-                  <Route path="Tips" element={<Tips />} />
-                  <Route path="RecyclePage" element={<RecyclePage />} />
-                  <Route path="Guide" element={<Guide />} />
-                  <Route path="RecycleLocations" element={<RecycleLocations />} />
-                  <Route path="Requests" element={<Requests />} />
-                  <Route path="SecondHand" element={<SecondHand />} />
-                  <Route path="Clothing" element={<Clothing />} />
-                  <Route path="ElectricProducts" element={<ElectricProducts />} />
-                  <Route path="Furniture" element={<Furniture />} />
-                  <Route path="Login" element={<Login />} />
-                </Route>
-              </Routes>
+              <IdContext.Provider value={{ id, setId }}>
+                <Routes>
+                  <Route path="/" element={<div> <Header /> <Outlet /> <Footer /></div>}>
+                    <Route index element={<HomePage />} />
+                    <Route path="PostPage" element={<PostPage />} />
+                    <Route path="PostIntro" element={<PostIntro />} />
+                    <Route path="Environment" element={<Environment />} />
+                    <Route path="General" element={<General />} />
+                    <Route path="Tips" element={<Tips />} />
+                    <Route path="RecyclePage" element={<RecyclePage />} />
+                    <Route path="Guide" element={<Guide />} />
+                    <Route path="RecycleLocations" element={<RecycleLocations />} />
+                    <Route path="Requests" element={<Requests />} />
+                    <Route path="SecondHand" element={<SecondHand />} />
+                    <Route path="Clothing" element={<Clothing />} />
+                    <Route path="ElectricProducts" element={<ElectricProducts />} />
+                    <Route path="Furniture" element={<Furniture />} />
+                    <Route path="Login" element={<Login />} />
+                    <Route path="ViewPost" element={<ViewPost />} />
+                    <Route path="Comment" element={<Comment />}/>
+                  </Route>
+                </Routes>
+              </IdContext.Provider>
             </InnerContext.Provider>
           </SectionContext.Provider>
         </IndexContext.Provider>
