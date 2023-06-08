@@ -1,10 +1,12 @@
 #comment-component-container {
     padding: 5%;
     margin: 5%;
+    margin-left: 0;
     background-color: rgb(243, 245, 247);
     border-radius: 15px;
     text-align: left;
     line-height: 7vh;
+    width: 80vw;
 }
 
 #comment-header {
@@ -20,4 +22,14 @@
 
 #comment-username {
     padding-left: 1vw;
+}
+
+#comment-outer-container {
+    display: flex;
+}
+
+#arrow {
+    width: 8vw;
+    height: 20vh;
+    margin-top: 3vh;
 }

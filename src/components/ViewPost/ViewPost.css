@@ -11,6 +11,7 @@
 #view-content-container {
     display: flex;
     align-items: center;
+    height: 60vh;
 }
 
 #post-prof-pic {

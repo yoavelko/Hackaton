@@ -71,6 +71,7 @@
 .showers {
     margin-top: 5vh;
     margin-bottom: 2vh;
+    font-size: larger;
 }
 
 #post-prof-pic {
@@ -125,4 +126,21 @@
 
 #username-color {
     color: rgb(169, 211, 4);
+}
+
+.post-shower-btn {
+    background-color: rgb(169, 211, 4);
+    border: 2px solid rgb(169, 211, 4);
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+
+.post-shower-btn:hover {
+    background-color: white;
+    color: rgb(169, 211, 4);
+    cursor: pointer;
 }
