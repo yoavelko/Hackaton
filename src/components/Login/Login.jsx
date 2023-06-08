@@ -42,7 +42,6 @@ function Login() {
         for (let i = 0; i < usersData.users.length; i++) {
             if (usersData.users[i].username === username) {
                 setUserIndex(i)
-                console.log(i);
             }
         }
         if (user) {
@@ -112,7 +111,7 @@ function Login() {
   };
 
     return (
-        <div id='Login-page-conatiner'>
+        <div id='login-page-conatiner'>
             <div id='logSignContainer'>
                 <div id='loginContainer' className='dualContainer'>
                     <h1 className='headers'>Login</h1>
@@ -122,7 +121,7 @@ function Login() {
                     </div>
                     <div className='inputContainers'>
                         <img id='pass-icon' className='icons' width="36" height="36" src="https://img.icons8.com/small/32/1A1A1A/private2.png" alt="private2" />
-                        <input className='inputs' type="text" onChange={(e) => setPassword(e.target.value)} placeholder='Password' />
+                        <input className='inputs' type="password" onChange={(e) => setPassword(e.target.value)} placeholder='Password' />
                     </div>
                     <div className='error-msg'>{error}</div>
                     <button id='login-submit' className='sub-btns' onClick={handleLog}>Submit</button>
@@ -148,7 +147,7 @@ function Login() {
                             <div className='error-msg'>{userErr}</div>
                             <div className='inputContainers'>
                                 <img id='pass-icon' className='icons' width="36" height="36" src="https://img.icons8.com/small/32/1A1A1A/private2.png" alt="private2" />
-                                <input className='inputs' type="text" onChange={(e) => setSignPass(e.target.value)} placeholder='Password' />
+                                <input className='inputs' type="password" onChange={(e) => setSignPass(e.target.value)} placeholder='Password' />
                             </div>
                             <div className='error-msg'>{passErr}</div>
                             <div className='inputContainers'>

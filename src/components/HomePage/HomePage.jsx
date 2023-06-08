@@ -38,7 +38,6 @@ function HomePage() {
           </div>
         </div>
       </div>
-      <div id="homepage-breaker"></div>
     </div>
   );
 }
