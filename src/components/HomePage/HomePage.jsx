@@ -18,7 +18,7 @@ function HomePage() {
           <Link to={"/RecyclePage"}><div className="homepage-title" id="recycle-header">Recycle forum</div></Link>
           <div className="home-inner-container">
             <Link to='Guide'><div className="redirect-links">Guides & Tips</div></Link>
-            <Link to="RecycleLocations"><div className="redirect-links">Recycling: How and Where</div></Link>
+            <Link to="RecycleLocations"><div className="redirect-links">Recycling locations</div></Link>
             <Link to="Requests"><div className="redirect-links">Q & A</div></Link>
           </div>
         </div>
