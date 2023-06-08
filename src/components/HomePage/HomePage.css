@@ -91,6 +91,7 @@
 #homepage-breaker {
   height: 40vh;
 }
+
 @media only screen and (max-width: 769px) {
   .recycle-containers {
     margin: 30vh;

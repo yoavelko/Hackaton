@@ -8,12 +8,6 @@
     align-items: center;
 }
 
-#view-content-container {
-    display: flex;
-    align-items: center;
-    height: 60vh;
-}
-
 #post-prof-pic {
     width: 60px;
     height: 60px;
@@ -80,4 +74,30 @@
 
 #comment-hidden {
     display: none;
+}
+
+#sign-shown {
+    display: block;
+}
+
+#sign-hidden {
+    display: none;
+}
+
+#petition-btn {
+    width: 10vw;
+    height: 7vh;
+    align-self: center;
+    border-radius: 20px;
+    background-color: rgb(169, 211, 4);
+    border: 3px rgb(169, 211, 4) solid;
+    color: white;
+    font-weight: bold;
+    margin-top: 3vh;
+}
+
+#petition-btn:hover {
+    background-color: white;
+    color: rgb(169, 211, 4);
+    cursor: pointer;
 }
