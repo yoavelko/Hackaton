@@ -31,7 +31,7 @@ function RecyclePage() {
           <div className="link-container">
             <div><Link to={"/Guide"} onClick={handleGuide}>Recycling Guides</Link></div>
             <div><Link to={"/RecycleLocations"} onClick={handleLocations}>Where to Recycle</Link></div>
-            <div><Link to={"/Requests"} onClick={handleRequests}>Requessts</Link></div>
+            <div><Link to={"/Requests"} onClick={handleRequests}>Requests</Link></div>
           </div>
         </div>
     )
