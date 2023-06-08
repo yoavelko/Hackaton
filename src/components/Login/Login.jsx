@@ -132,7 +132,7 @@ function Login() {
                 </div>
 
                 <div id='mediaBreaker'>
-                    <span id='or'>Or</span>
+                    <span id='or1'>Or</span>
                 </div>
 
                 <div className='dualContainer'>

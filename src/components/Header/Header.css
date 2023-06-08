@@ -10,6 +10,115 @@
     z-index: 999;
 }
 
+#dropdown-navbar{
+    display: none;
+    text-align: right;
+    position: fixed;
+    width: 100%;
+    z-index: 200;
+}
+.button{
+    width: 43px;
+    height: 35px;
+    background: rgb(255, 196, 0);
+    padding: 9px;
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+    padding-top: 12px;
+    line-height: 9px;
+    text-align: left;
+    position: fixed;
+    right: 0;
+    top: 0px;
+    gap: 5.7px;
+    display: flex;
+    z-index: 100;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.button:hover{
+    background: #ff9d00;
+}
+.button span{
+    height: 3px;
+    width: 100%;
+    background: white;
+    display: inline-block;
+    transition: all 0.5s cubic-bezier(.62,.43,.35,1.47);
+}
+#check:checked ~ .button span:nth-child(1){
+    width: 100%;
+    transform: rotate(45deg) translateY(6px) translateX(6px);
+}
+#check:checked ~ .button span:nth-child(2){
+    width: 0;
+}
+
+#check:checked ~ .button span:nth-child(3){
+    width: 100%;
+    transform: rotate(-45deg) translateY(-7px) translateX(7px);
+}
+nav{
+    text-align: left;
+    overflow: hidden;
+    transition: all 0.4s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #ffffff;
+    height: 20vh;
+}
+nav a{
+    text-decoration: none;
+    color: #0c1019;
+    display: block;
+    font-size: 18px;
+    transition: all 0.4s cubic-bezier(.22,.43,.35,1.5);
+    opacity: 0;
+    transform: scale(0);
+    transform-origin: top;
+    text-align: center;
+}
+nav{
+    width: 0%;
+    background: #ffffff;
+    height: auto;
+    max-height: 18vh;
+    opacity: 0;
+}
+
+#check:checked ~ nav{
+    width: 100%;
+    opacity: 1;
+} 
+
+nav a:hover{
+    background: #ffdd7f;
+}
+#check:checked ~ nav{
+    height: 20vh;
+}
+#check{
+    display: none;
+}
+#check:checked ~ nav a{
+    opacity: 1;
+    height: 20px;
+    transform: scale(1);
+}
+#dropdown-navbar{
+    text-align: right;
+    position: fixed;
+    width: 100%;
+    z-index: 200;
+}
+option{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .header-links {
     font-size: large;
     font-weight: bold;
@@ -41,4 +150,10 @@
      #shand-link{
         display: none;
      }
+     #dropdown-navbar{
+        display: block;
+    }
+    #header-container{
+        display: none;
+    }
 }
