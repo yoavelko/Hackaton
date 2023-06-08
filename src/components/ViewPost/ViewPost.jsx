@@ -16,16 +16,24 @@ function ViewPost() {
     const { userIndex, setUserIndex } = useContext(IndexContext);
     const [commentValue, setCommentValue] = useState('');
     const [renderer, setRenderer] = useState(false);
-    const [commentStyle, setCommentStyle] = useState('comments-container')
+    const [commentStyle, setCommentStyle] = useState('comments-container');
+    const [sign, setSign] = useState('sign-shown');
+    const [like, setLike] = useState('🤍');
+    const [x, setX] = useState(0)
 
-    useEffect(()=>{
+    useEffect(() => {
     }, [renderer])
 
-    useEffect(()=>{
+    useEffect(() => {
         if (userIndex === '') {
             setCommentStyle('comment-hidden');
         }
-    },[])
+        if (postData.postData[section][inner][id].petition === '') {
+            setSign('sign-hidden')
+        } else {
+            setSign('sign-shown')
+        }
+    }, [])
 
     function handleComment() {
         postData.postData[section][inner][id].comments.push(
@@ -35,6 +43,28 @@ function ViewPost() {
                 "content": commentValue
             }
         )
+        setRenderer(!renderer)
+    }
+
+    function handleSign() {
+        if (postData.postData[section][inner][id].signed.includes(`${userData.users[userIndex].firstName} ${userData.users[userIndex].lastName}`)) {
+
+        } else {
+            postData.postData[section][inner][id].signed.push(`${userData.users[userIndex].firstName} ${userData.users[userIndex].lastName}`)
+        }
+        setRenderer(!renderer)
+    }
+
+    function handleLike() {
+        if (postData.postData[section][inner][id].like.includes(userData.users[userIndex].username)) {
+            postData.postData[section][inner][id].like = postData.postData[section][inner][id].like.filter((item) => item !== userData.users[userIndex].username);
+            setX(postData.postData[section][inner][id].like.length);
+            setLike('🤍')
+        } else {
+            postData.postData[section][inner][id].like.push(userData.users[userIndex].username);
+            setX(postData.postData[section][inner][id].like.length);
+            setLike('❤️')
+        }
         setRenderer(!renderer)
     }
 
@@ -49,10 +79,14 @@ function ViewPost() {
                 </div>
                 <div id='view-content-container'>
                     <div id='view-content'>{postData.postData[section][inner][id].content}</div>
-                    <br />
-                    <div id='view-petition'>{postData.postData[section][inner][id].petition}</div>
-                    <br />
+                    <div id={sign}>
+                        <div id='view-petition'>{postData.postData[section][inner][id].petition}</div>
+                        <div>{postData.postData[section][inner][id]?.signed.map((item) => <span>{item}, </span>)}</div>
+                        <button id='petition-btn' onClick={handleSign}>Sign Petition</button>
+                    </div>
                     <div id='view-event'>{postData.postData[section][inner][id].event}</div>
+                    <div><button onClick={handleLike}>{like}</button><span> {x} people Liked this post</span></div>
+                    <div></div>
                 </div>
             </div>
             <div id='comments-container'>

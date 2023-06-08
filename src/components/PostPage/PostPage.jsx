@@ -83,9 +83,10 @@ function PostPage() {
             "category": selected,
             "content": postContent,
             "file": "",
-            "like": "",
+            "like": [],
             "comments": [],
             "petition": petitionContent,
+            "signed": [],
             "event": eventContent
         }
         postData.postData[section][inner].push(postObj);
