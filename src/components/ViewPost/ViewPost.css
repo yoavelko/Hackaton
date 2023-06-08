@@ -1,3 +1,8 @@
+#view-container {
+    padding-top: 8vh;
+    padding-bottom: 10vh;
+}
+
 #view-header {
     display: flex;
     align-items: center;
@@ -12,10 +17,6 @@
     width: 60px;
     height: 60px;
     border-radius: 100px;
-}
-
-#comment-content {
-    resize: none;
 }
 
 #view-box {
@@ -49,6 +50,7 @@
     height: 90%;
     height: 14vh;
     border-radius: 10px;
+    resize: none;
 }
 
 #comment-btn {
@@ -71,6 +73,8 @@
 
 #comments-container {
     display: block;
+    padding-left: 5%;
+    padding-right: 1%;
 }
 
 #comment-hidden {

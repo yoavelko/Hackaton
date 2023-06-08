@@ -8,8 +8,8 @@ import '../SecondHand/SecondHand.css'
 
 function SecondHand() {
 
-    const {section, setSection} = useContext(SectionContext);
-    const {inner, setInner} = useContext(InnerContext);
+    const { section, setSection } = useContext(SectionContext);
+    const { inner, setInner } = useContext(InnerContext);
 
     function handleClothing() {
         setSection("secondHand");
@@ -29,13 +29,13 @@ function SecondHand() {
     return (
 
         <div className="forum-container">
-                    <div className="category-header">Forum categories:</div>
-             <br />
-           <div className="link-container">
-            <Link to={"/Clothing"} onClick={handleClothing}><div id="clothing-forum-container">Clothing</div></Link>
-           <Link to={"/ElectricProducts"} onClick={handleElectric}> <div id="electric-forum-container">Electric Products</div></Link>
-            <Link to={"/Furniture"} onClick={handleFurniture}><div id="furniture-forum-container">Furniture</div></Link>
-           </div>
+            <div className="category-header">Forum categories:</div>
+            <br />
+            <div className="link-container">
+                <Link to={"/Clothing"} onClick={handleClothing}><div id="clothing-forum-container">Clothing</div></Link>
+                <Link to={"/ElectricProducts"} onClick={handleElectric}> <div id="electric-forum-container">Electric Products</div></Link>
+                <Link to={"/Furniture"} onClick={handleFurniture}><div id="furniture-forum-container">Furniture</div></Link>
+            </div>
         </div>
     )
 }
