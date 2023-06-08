@@ -1,6 +1,6 @@
 #logSignContainer {
     margin: 5vw;
-    height: 80vh;
+    height: 100vh;
     background-color: rgb(243, 245, 247);
     border-radius: 20px;
     display: flex;
@@ -17,6 +17,16 @@
     border-radius: 20px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    line-height: 6vh;
+}
+
+#signupContainer {
+    margin: 5vw;
+    background-color: rgb(243, 245, 247);
+    border-radius: 20px;
+    display: flex;
     justify-content: center;
     text-align: center;
     line-height: 6vh;
@@ -108,6 +118,11 @@
     margin-bottom: 3vh;
 }
 
+#profile-select {
+    width: 11vw;
+    height: 6.5vh;
+}
+
 .sub-btns {
     width: 50%;
     height: 40px;
@@ -127,6 +142,10 @@
 
 .error-msg {
     color: red;
+}
+
+#avatar-img {
+    border-radius: 100px;
 }
 
 @media screen and (max-width: 768px) {

@@ -15,10 +15,17 @@ function ViewPost() {
     const { section, setSection } = useContext(SectionContext);
     const { userIndex, setUserIndex } = useContext(IndexContext);
     const [commentValue, setCommentValue] = useState('');
-    const [renderer, setRenderer] = useState(false)
+    const [renderer, setRenderer] = useState(false);
+    const [commentStyle, setCommentStyle] = useState('comments-container')
 
     useEffect(()=>{
     }, [renderer])
+
+    useEffect(()=>{
+        if (userIndex === '') {
+            setCommentStyle('comment-hidden');
+        }
+    },[])
 
     function handleComment() {
         postData.postData[section][inner][id].comments.push(
@@ -51,7 +58,7 @@ function ViewPost() {
                     return <Comment key={index} info={value} />
                 })}
             </div>
-            <div id='add-comment'>
+            <div id={commentStyle}>
                 <textarea id='comment-content' onChange={(e) => setCommentValue(e.target.value)} />
                 <button id='comment-btn' onClick={handleComment}>Add Comment</button>
             </div>

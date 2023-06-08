@@ -15,7 +15,7 @@
             "password": "yoav",
             "firstName": "Yoav",
             "lastName": "Elkobi",
-            "profilepic": "",
+            "profilepic": "https://i.pinimg.com/originals/a6/58/32/a65832155622ac173337874f02b218fb.png",
             "email": "",
             "rank": "",
             "score": ""
@@ -24,8 +24,8 @@
             "username": "noam123",
             "password": "noam",
             "firstName": "Noam",
-            "lastName": "",
-            "profilepic": "",
+            "lastName": "Levi",
+            "profilepic": "https://www.shareicon.net/data/512x512/2016/05/24/770117_people_512x512.png",
             "email": "",
             "rank": "",
             "score": ""
@@ -35,7 +35,7 @@
             "password": "daniel",
             "firstName": "Daniel",
             "lastName": "Brizel",
-            "profilepic": "",
+            "profilepic": "https://cdn3.iconfinder.com/data/icons/avatars-9/145/Avatar_Dog-512.png",
             "email": "duckimomo15@gmail.com",
             "rank": "",
             "score": ""
