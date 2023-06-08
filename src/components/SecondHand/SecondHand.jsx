@@ -4,6 +4,7 @@ import "../PostIntro/SelectionPage.css";
 import { SectionContext } from "../../context/SectionContext";
 import { InnerContext } from "../../context/InnerContext";
 import { useContext } from "react";
+import '../SecondHand/SecondHand.css'
 
 function SecondHand() {
 
@@ -28,10 +29,12 @@ function SecondHand() {
     return (
 
         <div className="forum-container">
+                    <div className="category-header">Forum categories:</div>
+             <br />
            <div className="link-container">
-            <div><Link to={"/Clothing"} onClick={handleClothing}>Clothing</Link></div>
-            <div><Link to={"/ElectricProducts"} onClick={handleElectric}>Electric Products</Link></div>
-            <div><Link to={"/Furniture"} onClick={handleFurniture}>Furniture</Link></div>
+            <Link to={"/Clothing"} onClick={handleClothing}><div id="clothing-forum-container">Clothing</div></Link>
+           <Link to={"/ElectricProducts"} onClick={handleElectric}> <div id="electric-forum-container">Electric Products</div></Link>
+            <Link to={"/Furniture"} onClick={handleFurniture}><div id="furniture-forum-container">Furniture</div></Link>
            </div>
         </div>
     )

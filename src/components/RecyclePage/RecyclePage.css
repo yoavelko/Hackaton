@@ -1,0 +1,28 @@
+#recycling-forum-container{
+    display: flex;
+    border-width: 2px;
+    border-color: beige;
+    border-style: ridge;
+    padding: 1vw;
+    background-image:"https://dec.vermont.gov/sites/dec/files/wmp/SolidWaste/Images/recycling-symbol.jpg";
+    font-size: larger;
+}
+#location-forum-container{
+    display: flex;
+    background-image: "https://icon-library.com/images/recycling-icon/recycling-icon-26.jpg";
+    border-width: 2px;
+    border-color: beige;
+    border-style: ridge;
+    padding: 1vw;
+    font-size: larger;
+    margin-right: 2vw;
+}
+#requests-forum-container{
+    display: flex;
+    background-image: "https://cdn2.iconfinder.com/data/icons/ecology-and-recycling/85/recycling_recycle_plastic_bottle_ecology-512.png";
+    border-width: 2px;
+    border-color: beige;
+    border-style: ridge;
+    padding: 1vw;
+    font-size: larger;
+}

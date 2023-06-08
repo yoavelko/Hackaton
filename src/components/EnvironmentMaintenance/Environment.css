@@ -1,6 +1,7 @@
 
 #tip-forum-container{
     display: flex;
+    background-image: "https://www.freeiconspng.com/uploads/idea-tips-png-16.png";
     border-width: 2px;
     border-color: beige;
     border-style: ridge;
@@ -9,6 +10,7 @@
 }
 #general-forum-container{
     display: flex;
+    background-image: "https://cdn-icons-png.flaticon.com/512/4551/4551767.png";
     border-width: 2px;
     border-color: beige;
     border-style: ridge;

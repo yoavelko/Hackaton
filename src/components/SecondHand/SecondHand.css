@@ -1,0 +1,27 @@
+#clothing-forum-container{
+    display: flex;
+    background-image: "https://thumbs.dreamstime.com/b/second-hand-concept-recycle-clothing-laundry-dry-cleaning-icon-vector-199124613.jpg";
+    border-width: 2px;
+    border-color: beige;
+    border-style: ridge;
+    padding: 1vw;
+    font-size: larger;
+}
+#electric-forum-container{
+    display: flex;
+    background-image: "https://w1.pngwing.com/pngs/556/766/png-transparent-recycling-logo-computer-recycling-electronic-waste-recycling-bin-recycling-symbol-singlestream-recycling-computer-monitors-computer-hardware.png";
+    border-width: 2px;
+    border-color: beige;
+    border-style: ridge;
+    padding: 1vw;
+    font-size: larger;    
+}
+#furniture-forum-container{
+    display: flex;
+    background-image: "https://cdn.shortpixel.ai/spai/ret_img/https://winwarehouse.org/content/uploads/2021/10/win_icon_efficiency02.svg";
+    border-width: 2px;
+    border-color: beige;
+    border-style: ridge;
+    padding: 1vw;
+    font-size: larger;   
+}
