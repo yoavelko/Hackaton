@@ -91,32 +91,39 @@
 #homepage-breaker {
     height: 40vh;
 }
-@media only screen and (max-width: 769px){
-    .recycle-containers{
- margin: 30vh;
- flex-direction: column;
-}
-.redirect-links{
-font-size: 3vw;
-width: 25vw;
-font-weight: bold;
-}
-#second-hand-header{
-    font-size: 2.5vw;
-width: 25vw;
-height: 20vh;
 
-}
-#environment-header{
-    font-size: 3vw;
-width: 25vw;
+@media only screen and (max-width: 769px) {
+    .recycle-containers {
+        margin: 30vh;
+        flex-direction: column;
+    }
 
-}
-#recycle-header{
-    font-size: 4vw;
-    width: 25vw;
+    .redirect-links {
+        font-size: 3vw;
+        width: 25vw;
+        font-weight: bold;
+    }
 
-}
-#homepage-breaker{
-    height: 0vh;
+    #second-hand-header {
+        font-size: 2.5vw;
+        width: 25vw;
+        height: 20vh;
+
+    }
+
+    #environment-header {
+        font-size: 3vw;
+        width: 25vw;
+
+    }
+
+    #recycle-header {
+        font-size: 4vw;
+        width: 25vw;
+
+    }
+
+    #homepage-breaker {
+        height: 0vh;
+    }
 }
