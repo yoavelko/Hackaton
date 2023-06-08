@@ -1,0 +1,17 @@
+
+#tip-forum-container{
+    display: flex;
+    border-width: 2px;
+    border-color: beige;
+    border-style: ridge;
+    padding: 1vw;
+    font-size: larger
+}
+#general-forum-container{
+    display: flex;
+    border-width: 2px;
+    border-color: beige;
+    border-style: ridge;
+    padding: 1vw;
+    font-size: larger;
+}
