@@ -123,7 +123,7 @@ function Login() {
                 </div>
 
                 <div className='dualContainer'>
-                    <h1 className='headers'>Sign-Up</h1>
+                    <h1 className='headers' id='signup-header'>Sign-Up</h1>
                     <div id='signupContainer'>
                         <div className='signup-split'>
                             <div className='inputContainers'>
