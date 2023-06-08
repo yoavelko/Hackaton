@@ -1,6 +1,6 @@
 #logSignContainer {
     margin: 5vw;
-    height: 100vh;
+    height: 90vh;
     background-color: rgb(243, 245, 247);
     border-radius: 20px;
     display: flex;
@@ -90,8 +90,13 @@
     color: rgb(169, 211, 4);
 }
 
+#signup-header {
+    margin-bottom: -5vh;
+}
+
 #terms {
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: -10vh;
 }
 
 #termsLink {
@@ -124,7 +129,7 @@
 }
 
 .sub-btns {
-    width: 50%;
+    width: 150px;
     height: 40px;
     align-self: center;
     border-radius: 10px;
