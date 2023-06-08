@@ -200,6 +200,7 @@
     #logincontainer{
        width: 100vw;
     }
+
     .intro-user-pic {
         width: 32px;
         height: 32px;
@@ -210,5 +211,8 @@
     #profile-select{
         height: 4vh;
         width: 30vw;
+        }
+        #logSignContainer{
+            height: 160vh;
         }
 }
