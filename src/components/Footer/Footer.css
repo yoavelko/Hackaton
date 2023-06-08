@@ -17,6 +17,7 @@
 
 .footer-elements:hover {
     color: rgb(169, 211, 4);
+    cursor: pointer;
 }
 
 #rights {
