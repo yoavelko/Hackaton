@@ -68,3 +68,11 @@
     color: rgb(169, 211, 4);
     cursor: pointer;
 }
+
+#comments-container {
+    display: block;
+}
+
+#comment-hidden {
+    display: none;
+}
